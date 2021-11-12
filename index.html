@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>NixT.portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main-grid">
+        <div class="navbar" id="home">
+            <h1 class="logo">Nix<span class="color-text">T</span></h1>
+            <ul class="navlinks">
+                <li><a href="#home" class="active" onclick="reveal()">Home</a></li>
+                <li><a href="#about" onclick="reveal()">About</a></li>
+                <li><a href="#skills" onclick="reveal()">Skills</a></li>
+            </ul>
+            <button class="universal-btn">
+                <a href="#contact">Contact</a>
+            </button>
+        </div>
+        <div class="home-text">
+            <h1>
+                Hello I’m <span class="color-text">NixT</span>
+                UI/UX and Web Designer
+            </h1>
+            <p>
+                Hi, I’m Nikhil Thorat (Nikhil + Thorat = NixT). Im a Professional UX/UI and Web Designer. I’m Master in
+                Minimal/Modern and Simple Designs.
+            </p>
+            <button class="universal-btn">
+                <a href="#contact">Hire</a>
+            </button>
+        </div>
+        <div class="home-image">
+            <img src="/static/home-png.png" alt="home-image">
+        </div>
+        <div class="about-title" id="about">
+            <h1>
+                About
+            </h1>
+        </div>
+        <div class="about-text">
+            <h1>
+                Professional UI/UX and Web <span class="color-text">Designer</span> 
+            </h1>
+            <p>
+                Hi, I’m Nikhil Thorat (Nikhil + Thorat = NixT). Im a Professional UX/UI and Web Designer. I’m Master in Minimal/Modern and Simple Designs.
+            </p>
+            <button class="universal-btn">
+                <a href="#contact">Hire</a>
+            </button>
+        </div>
+        <div class="about-image">
+            <img src="/static/about-png.png" alt="about-image">
+        </div>
+        <div class="skills-title" id="skills">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <h1>UI/UX and <span class="color-text"> Web Desing</span></h1>
+                <p>Minimal/Modern and Simple Web Desings Using Figma</p>
+            </div>
+            <div class="skill">
+                <h1>HTML & <span class="color-text"> CSS</span></h1>
+                <p>Learning HTML and CSS for Web Developement further</p>
+            </div>
+            <div class="skill">
+                <h1>Python Programming (<span class="color-text">Django</span>)</h1>
+                <p>Python programming (Intermediate Level), and Django Framework</p>
+            </div>
+        </div>
+        <div class="skills-image">
+            <img src="/static/skills-png.png" alt="">
+        </div>
+        <div class="contact-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-form" id="contact">
+            <h1>Name</h1>
+            <input type="text" id="name" name="name">
+            <h1>Email</h1>
+            <input type="email" id="email" name="email">
+            <h1>Message</h1>
+            <input type="text-area" id="message" name="message">
+            <button class="universal-btn" method="submit">
+                <a href="#home" id="send" onclick="send()">Send</a>
+            </button>
+        </div>
+        <div class="contact-image">
+            <img src="/static/contact-png.png" alt="">
+        </div>
+        <div class="footer">
+            <h1>All rights reserved</h1>
+            <h1>NixT.portfolio</h1>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>
