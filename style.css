@@ -358,6 +358,9 @@ input:nth-last-child(2) {
 /* responsive */
 
 @media (min-width: 1024px) {
+  body{
+    overflowX:hidden;
+  }
   .main-grid {
     margin: 0px 10% 0px 10%;
     grid-template-columns: 1fr 1fr;
