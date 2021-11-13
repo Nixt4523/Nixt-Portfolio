@@ -421,7 +421,7 @@ input:nth-last-child(2) {
   }
   input{
       font-size: 18px;
-      width:75%;
+      width:100%;
   }
 }
 
