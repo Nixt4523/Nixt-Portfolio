@@ -4,8 +4,8 @@
 :root {
   --primary-color: #f05f57;
   --secondary-color: #360940;
-  --dark-color: #222222;
-  --light-color: #fff;
+  --dark-color: #fff;
+  --light-color: #222222;
 }
 
 * {
