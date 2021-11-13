@@ -162,7 +162,7 @@ body {
 }
 
 .home-image img {
-  height: 350px;
+  height: 450px;
 }
 /* about-section */
 .about-title {
@@ -216,7 +216,7 @@ body {
 }
 
 .about-image img {
-  height: 350px;
+  height: 450px;
 }
 /* skills-section */
 .skills-title {
@@ -270,7 +270,7 @@ body {
 }
 
 .skills-image img {
-  height: 350px;
+  height: 450px;
 }
 /* contact-section */
 .contact-title {
@@ -334,7 +334,7 @@ input:nth-last-child(2) {
 }
 
 .contact-image img {
-  height: 350px;
+  height: 450px;
 }
 /* footer-section */
 .footer {
@@ -380,7 +380,7 @@ input:nth-last-child(2) {
     display: block;
   }
   .home-image img {
-    height: 520px;
+    height: 550px;
   }
   .home-text{
       text-align:left;
@@ -388,14 +388,14 @@ input:nth-last-child(2) {
   }
 
   .about-image img {
-    height: 520px;
+    height: 550px;
   }
   .about-text{
       text-align:right;
       align-items: flex-end;
   }
   .skills-image img {
-    height: 520px;
+    height: 550px;
   }
   .skills{
       text-align:left;
@@ -405,7 +405,7 @@ input:nth-last-child(2) {
       margin:0%;
   }
   .contact-image img {
-    height: 520px;
+    height: 550px;
   }
   .contact-form{
       align-items: flex-start;
